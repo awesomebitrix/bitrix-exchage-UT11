@@ -1,0 +1,943 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExchangePlan xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c5cb4f61-21cc-4930-90c3-8a34bdb92da8" thisNode="735bd8f1-d575-47e7-960d-fd4c7ea72bc5">
+  <producedTypes>
+    <objectType typeId="beb5de28-7ecf-4a19-a6ec-d05f5ce623c6" valueTypeId="5fa3c090-370d-481e-a9bc-60503ec623dc"/>
+    <refType typeId="2e88f71b-e071-48af-b293-14c736960c90" valueTypeId="01b32cfd-e975-423e-afe1-18ff75d7a07f"/>
+    <selectionType typeId="ddf3f583-213a-4cdd-9f9b-55e9358b4f31" valueTypeId="e28096ef-faf3-4904-b1dc-eef54782a989"/>
+    <listType typeId="ea0e75b3-6617-4eba-bde7-deec74695e44" valueTypeId="e91ac4e1-d00f-4169-9ecf-85b0871951ba"/>
+    <managerType typeId="69a2107e-e5eb-4e09-bfb5-b1f60479bd33" valueTypeId="04cf11e3-cdf3-4f18-8111-d36f6b7031fb"/>
+  </producedTypes>
+  <name>Б_ОбменССайтом</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки обмена с интернет магазином</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>ExchangePlan.Б_ОбменССайтом.StandardAttribute.Description</inputByString>
+  <inputByString>ExchangePlan.Б_ОбменССайтом.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <name>ThisNode</name>
+    <comment></comment>
+    <fillValue xsi:type="core:NullValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:NullValue"/>
+    <maxValue xsi:type="core:NullValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>ReceivedNo</name>
+    <comment></comment>
+    <fillValue xsi:type="core:NullValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:NullValue"/>
+    <maxValue xsi:type="core:NullValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>SentNo</name>
+    <comment></comment>
+    <fillValue xsi:type="core:NullValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:NullValue"/>
+    <maxValue xsi:type="core:NullValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Ref</name>
+    <comment></comment>
+    <fillValue xsi:type="core:NullValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:NullValue"/>
+    <maxValue xsi:type="core:NullValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>DeletionMark</name>
+    <comment></comment>
+    <fillValue xsi:type="core:NullValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:NullValue"/>
+    <maxValue xsi:type="core:NullValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Description</name>
+    <comment></comment>
+    <fillValue xsi:type="core:NullValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:NullValue"/>
+    <maxValue xsi:type="core:NullValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Code</name>
+    <comment></comment>
+    <fillValue xsi:type="core:NullValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:NullValue"/>
+    <maxValue xsi:type="core:NullValue"/>
+  </standardAttributes>
+  <createOnInput>DontUse</createOnInput>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Настройки обмена с интернет магазином</value>
+  </objectPresentation>
+  <extendedObjectPresentation>
+    <key>ru</key>
+    <value>Настройки обмена с интернет магазином</value>
+  </extendedObjectPresentation>
+  <codeLength>9</codeLength>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <descriptionLength>100</descriptionLength>
+  <content>
+    <mdObject>Catalog.Б_ХарактеристикиНоменклатурыПрисоединенныеФайлы</mdObject>
+  </content>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>ExchangePlan.Б_ОбменССайтом.Form.ФормаУзла</defaultObjectForm>
+  <defaultListForm>ExchangePlan.Б_ОбменССайтом.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="32b5b90f-0ac0-4f44-98f4-7e76ce38d524">
+    <name>АдресСайта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Адрес сайта</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>255</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Адрес сайта, с которым настраивается обмен</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:NullValue"/>
+    <maxValue xsi:type="core:NullValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="d48e24fb-8c62-427e-947d-2747e6c3edf0">
+    <name>ВыгружатьЛогНаСайт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выгружать лог на сайт</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:NullValue"/>
+    <maxValue xsi:type="core:NullValue"/>
+    <fillValue xsi:type="core:NullValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="782c0e3d-3f3b-4aa9-8c2c-dad274e079ed">
+    <name>ВыгружатьНаСайт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выгружать на сайт</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:NullValue"/>
+    <maxValue xsi:type="core:NullValue"/>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:BooleanValue">
+      <value>true</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="e0a3d5a3-11a2-4fde-8ad5-401798fbbb4c">
+    <name>ВыгружатьТолькоИзменения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выгружать только изменения</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:NullValue"/>
+    <maxValue xsi:type="core:NullValue"/>
+    <fillValue xsi:type="core:NullValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="6aaa9fe1-d5a8-4867-8137-e1c4aefd36e1">
+    <name>ВыполнятьПолнуюВыгрузкуПринудительно</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выполнять полную выгрузку принудительно</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:NullValue"/>
+    <maxValue xsi:type="core:NullValue"/>
+    <fillValue xsi:type="core:NullValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="16fba7b9-5138-4e8a-9903-f4a79aa83cc8">
+    <name>Идентификатор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Идентификатор подразделения</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:NullValue"/>
+    <maxValue xsi:type="core:NullValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value>1</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="7e67d3cc-0745-44d2-8f97-d16f3e7dc3d8">
+    <name>ИдентификаторРегламентногоЗадания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор регламентного задания</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>UUID</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:NullValue"/>
+    <maxValue xsi:type="core:NullValue"/>
+    <fillValue xsi:type="core:NullValue"/>
+  </attributes>
+  <attributes uuid="7a12f103-81e6-4221-91fb-7d2bd768b392">
+    <name>ИмяПользователя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя пользователя</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>255</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Имя пользователя (логин) для авторизации на сайте</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:NullValue"/>
+    <maxValue xsi:type="core:NullValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:StringValue">
+      <value>admin</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="7c727d36-da4f-4915-a604-b8131e8affc7">
+    <name>ИспользоватьРегламентныеЗадания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать периодический обмен данными</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>При установленном флажке обмен данными будет запускаться автоматически, согласно расписанию</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:NullValue"/>
+    <maxValue xsi:type="core:NullValue"/>
+    <fillValue xsi:type="core:NullValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="b1f37358-e5cc-410b-94f2-61f005817a23">
+    <name>КаталогВыгрузки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Каталог выгрузки</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Каталог на диске, в который будут сохранены файлы обмена</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:NullValue"/>
+    <maxValue xsi:type="core:NullValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="e858d354-88a6-4f57-b648-dfc322a39383">
+    <name>КаталогЛога</name>
+    <synonym>
+      <key>ru</key>
+      <value>Каталог лога</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:NullValue"/>
+    <maxValue xsi:type="core:NullValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:NullValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="ba668b0e-be07-4c4d-a48f-e94d7921ed71">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Текст комментария к настройкам узла обмена</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:NullValue"/>
+    <maxValue xsi:type="core:NullValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="9c89d18c-49ae-45e5-ba28-93520e3b691f">
+    <name>НастройкаВерсионностиВыгружаемыхДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройка версионности выгружаемых данных</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:NullValue"/>
+    <maxValue xsi:type="core:NullValue"/>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:NullValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="682661fa-f014-407f-91bb-d57c417e2936">
+    <name>ОбменВРеальномВремени</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обмен в реальном времени</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:NullValue"/>
+    <maxValue xsi:type="core:NullValue"/>
+    <fillValue xsi:type="core:NullValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="4bc69c5e-2356-4246-bf21-4cb8a71d5f70">
+    <name>ОбменДокументами</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обмен документами</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:NullValue"/>
+    <maxValue xsi:type="core:NullValue"/>
+    <fillValue xsi:type="core:NullValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="6b9f720a-5790-4bc8-ae94-0f51f8726668">
+    <name>ОбменПользовательскимиСправочниками</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обмен пользовательскими справочниками</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:NullValue"/>
+    <maxValue xsi:type="core:NullValue"/>
+    <fillValue xsi:type="core:NullValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="53c903b7-a2d1-40d4-bd5e-56e8b6efd214">
+    <name>ОбменТоварами</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обмен товарами</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:NullValue"/>
+    <maxValue xsi:type="core:NullValue"/>
+    <fillValue xsi:type="core:NullValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="437ccca1-450c-4a9c-8b5c-b64eafe74753">
+    <name>Пароль</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пароль</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>255</length>
+      </stringQualifiers>
+    </type>
+    <passwordMode>true</passwordMode>
+    <toolTip>
+      <key>ru</key>
+      <value>Пароль пользователя для авторизации на сайте</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:NullValue"/>
+    <maxValue xsi:type="core:NullValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="fc6e5885-176e-4a4a-93a4-03d8d6af46d5">
+    <name>ПродолжитьОтправкуНеудачноЗакончившихсяПакетовПриСледующемОбмене</name>
+    <synonym>
+      <key>ru</key>
+      <value>Продолжить отправку неудачно закончившихся пакетов при следующем обмене</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:NullValue"/>
+    <maxValue xsi:type="core:NullValue"/>
+    <fillValue xsi:type="core:NullValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="78682cf1-87c2-4d1a-b984-1fcfa243e96b">
+    <name>СохраненнаяТаблицаКаталогов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сохраненная таблица каталогов</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:NullValue"/>
+    <maxValue xsi:type="core:NullValue"/>
+    <fillValue xsi:type="core:NullValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="562391c3-13d5-4d1a-a586-bc6d43067726">
+    <name>СохраненныеНастройки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сохраненные настройки</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:NullValue"/>
+    <maxValue xsi:type="core:NullValue"/>
+    <fillValue xsi:type="core:NullValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="a61903fd-c22d-48df-b0e4-5ab9c71a1627">
+    <name>ТаймаутМеждуПовторамиНеудачноОтправленныхПакетах</name>
+    <synonym>
+      <key>ru</key>
+      <value>Таймаут между повторами неудачно отправленных пакетах</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:NullValue"/>
+    <maxValue xsi:type="core:NullValue"/>
+    <fillValue xsi:type="core:NumberValue">
+      <value>5</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="46866e5f-f733-469f-a9ca-6c021335b6f9">
+    <name>ФайлЗагрузки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Файл загрузки заказов</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Файл XML, из которого будут загружаться заказы</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:NullValue"/>
+    <maxValue xsi:type="core:NullValue"/>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:StringValue">
+      <value>c:\order.xml</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="d4f66958-1fa6-4024-a874-1531823459dd">
+    <name>ХранилищеТаблицыКлассификаторовНоменклатуры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Хранилище таблицы классификаторов номенклатуры</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:NullValue"/>
+    <maxValue xsi:type="core:NullValue"/>
+    <fillValue xsi:type="core:NullValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="d25ca956-cdab-4092-9f2d-dc14678abe6c">
+    <name>ХранитьФайлыОбменаНаСайте</name>
+    <synonym>
+      <key>ru</key>
+      <value>Хранить файлы обмена на сайте</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:NullValue"/>
+    <maxValue xsi:type="core:NullValue"/>
+    <fillValue xsi:type="core:NullValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="f1779354-e7e2-45a2-b206-33eece8ce9a4">
+    <name>ЧислоПовторовПриНеудачноОтправленныхПакетах</name>
+    <synonym>
+      <key>ru</key>
+      <value>Число повторов при неудачно отправленных пакетах</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:NullValue"/>
+    <maxValue xsi:type="core:NullValue"/>
+    <fillValue xsi:type="core:NumberValue">
+      <value>2</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="33912473-e62a-4d5f-942c-82e68d68c8f6">
+    <name>ДеактивироватьТоварыЕслиПолнаяВыгрузка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Деактивировать товары если полная выгрузка</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:NullValue"/>
+    <maxValue xsi:type="core:NullValue"/>
+    <fillValue xsi:type="core:NullValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <forms uuid="038fa6b6-a951-447f-ae70-1ea7709f8617">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="17fddc5e-a252-4ed1-b680-59714feb6659">
+    <name>ФормаУзла</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма узла</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="940a95a9-8a89-48c7-b14b-5fcc2b1536d5">
+    <name>ФормаНастройкиОтбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма настройки отбора</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="a410734f-85e1-47f9-85d6-50b736d5fc23">
+    <name>ФормаДеревоГрупп</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройка дерева групп</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="5c22330c-d762-4db4-bd9f-f6db4e6db3eb">
+    <name>РедактированиеУОбъектовКодыБитрикс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Редактирование у объектов коды Битрикс</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="a995c082-1e6d-4213-ae7d-eaebc9c37420">
+    <name>ИнформацияОЗарегистрированныхИзменениях</name>
+    <synonym>
+      <key>ru</key>
+      <value>Информация о зарегистрированных изменениях</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="b3a10e7b-c334-4327-82d5-9bbbda9df418">
+    <name>УстановкаНастроекСписком</name>
+    <synonym>
+      <key>ru</key>
+      <value>Установка настроек списком</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="d2a8bf6c-ebd8-49b1-b823-0d02153f1be8">
+    <name>ФормаНастройкиСоответствийЗагружаемыхДокументов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройка соответствий загружаемых документов</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="5df08d35-6974-49dc-b736-b57a738aef00">
+    <name>НастройкаВыгрузкиИнформацииОНоменклатуре</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройка выгрузки информации о номенклатуре</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="4627b5e0-69c8-4135-959f-9341f21de56e">
+    <name>НастройкаВыгрузкиПользовательскихСправочников</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройка выгрузки пользовательских справочников</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="63d24182-94f8-4b7f-9615-7406bc6700e6">
+    <name>НастройкаВыгрузкиСкидок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройка выгрузки скидок</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="83a1794a-9fb6-4796-9419-7571d31e7381">
+    <name>НастройкаВыгрузкиКартЛояльности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройка выгрузки карт лояльности</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="1c6c5066-eb92-4c57-b873-120b992691c6">
+    <name>НастройкаВыгрузкиКонтрагентов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройка выгрузки контрагентов</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="26d4fe91-b1ab-4b9a-9b8e-25c128469cd1">
+    <name>НастройкаОбменаДокументами</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройка обмена документами</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="95ba6057-4ec3-408f-8740-6157f023d88b">
+    <name>ИнформацииООбновлении</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма информации о обновлении</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="bf346bcd-fac3-42e6-84ef-e66bd5501286">
+    <name>ОтчетПоНоменклатуреДерева</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отчет по номенклатуре дерева</value>
+    </synonym>
+    <comment></comment>
+  </templates>
+  <templates uuid="6064a195-e98a-45b8-a1a8-10a7f349a8c5">
+    <name>СхемаXSDОбмена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Схема XSDОбмена</value>
+    </synonym>
+    <comment>2.09</comment>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="08809c86-ac26-459c-865c-06113e0db3d9">
+    <name>СхемаВыгрузкиДисконтныхКарт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Схема выгрузки дисконтных карт</value>
+    </synonym>
+    <comment></comment>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="aa0fcfe8-c5c5-4d81-8a4e-38688aaab1f8">
+    <name>СхемаВыгрузкиОтгрузок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Схема выгрузки отгрузок</value>
+    </synonym>
+    <comment></comment>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="87a1ead7-e025-49d2-93bd-f6fe0b5760bf">
+    <name>СхемаВыгрузкиЗаказов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Схема выгрузки заказов</value>
+    </synonym>
+    <comment></comment>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="5c69d90e-534a-4020-ab9f-291c13d4896e">
+    <name>СхемаВыгрузкиКонтрагентов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Схема выгрузки контрагентов</value>
+    </synonym>
+    <comment></comment>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="c349363a-71db-48cb-9705-f9dea5e011e8">
+    <name>СхемаВыгрузкиОбщейИнформации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Схема выгрузки общей информации</value>
+    </synonym>
+    <comment></comment>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="173b1f5e-dfcf-4ff3-9cb0-2dec1d5727e9">
+    <name>СхемаВыгрузкиСвойств</name>
+    <synonym>
+      <key>ru</key>
+      <value>Схема выгрузки свойств</value>
+    </synonym>
+    <comment></comment>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="4d797949-b2d7-42be-b398-f66abcce38e1">
+    <name>СхемаВыгрузкиСкидок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Схема выгрузки скидок</value>
+    </synonym>
+    <comment></comment>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="85a53943-b904-4b7e-988f-2e18bb5e4935">
+    <name>СхемаВыгрузкиТоваров</name>
+    <synonym>
+      <key>ru</key>
+      <value>Схема выгрузки товаров</value>
+    </synonym>
+    <comment></comment>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="61241618-c190-466b-ba5b-74e2dc56932c">
+    <name>СхемаВыгрузкиОплат</name>
+    <synonym>
+      <key>ru</key>
+      <value>Схема выгрузки оплат</value>
+    </synonym>
+    <comment></comment>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <commands uuid="dfa46ba1-742f-4bd6-b2a8-194a2b00876a">
+    <name>ВыполнитьОбменДанными</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выполнить обмен данными</value>
+    </synonym>
+    <comment></comment>
+    <group>CommandGroup.ВыполнениеОбменаДанными</group>
+    <commandParameterType>
+      <types>ExchangePlanRef.Б_ОбменССайтом</types>
+    </commandParameterType>
+    <representation>Auto</representation>
+    <picture xsi:type="core:PictureRef">
+      <picture>StdPicture.GenerateReport</picture>
+    </picture>
+    <shortcut></shortcut>
+  </commands>
+  <commands uuid="9e829a7f-35a2-4c1f-8ede-f8a471e25ee5">
+    <name>ПоказатьЗарегистрированныеИзменения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Показать зарегистрированные изменения</value>
+    </synonym>
+    <comment></comment>
+    <group>CommandGroup.ВыполнениеОбменаДанными</group>
+    <commandParameterType>
+      <types>ExchangePlanRef.Б_ОбменССайтом</types>
+    </commandParameterType>
+    <representation>Auto</representation>
+    <toolTip>
+      <key>ru</key>
+      <value>Показать зарегистрированные изменения для узла обмена с сайтом</value>
+    </toolTip>
+    <picture xsi:type="core:PictureRef">
+      <picture>StdPicture.ShowData</picture>
+    </picture>
+    <shortcut></shortcut>
+  </commands>
+  <commands uuid="98e287c9-9844-4c14-b4d3-76212d4a2a5b">
+    <name>ОткрытьЛог</name>
+    <synonym>
+      <key>ru</key>
+      <value>Открыть лог</value>
+    </synonym>
+    <comment></comment>
+    <group>CommandGroup.ВыполнениеОбменаДанными</group>
+    <commandParameterType>
+      <types>ExchangePlanRef.Б_ОбменССайтом</types>
+    </commandParameterType>
+    <representation>PictureAndText</representation>
+    <picture xsi:type="core:PictureRef">
+      <picture>0</picture>
+    </picture>
+    <shortcut></shortcut>
+  </commands>
+  <commands uuid="4b5fcf2e-ff95-4e52-b385-4d34bea3a3a2">
+    <name>ИнформацияОВерсииМодуляОбменаБитрикс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Информация о версии модуля обмена 1С-Битрикс</value>
+    </synonym>
+    <comment></comment>
+    <group>CommandGroup.ВыполнениеОбменаДанными</group>
+    <commandParameterType>
+      <types>ExchangePlanRef.Б_ОбменССайтом</types>
+    </commandParameterType>
+    <parameterUseMode>Multiple</parameterUseMode>
+    <representation>Auto</representation>
+    <picture xsi:type="core:PictureRef">
+      <picture>0</picture>
+    </picture>
+    <shortcut></shortcut>
+  </commands>
+</mdclass:ExchangePlan>

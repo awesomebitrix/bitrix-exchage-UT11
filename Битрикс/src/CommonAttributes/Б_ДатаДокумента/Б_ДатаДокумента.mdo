@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonAttribute xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="782225bd-f1cc-4542-80a8-278ee1eeb5ec">
+  <name>Б_ДатаДокумента</name>
+  <synonym>
+    <key>ru</key>
+    <value>Дата документа Битрикс</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>Date</types>
+    <dateQualifiers/>
+  </type>
+  <mask></mask>
+  <minValue xsi:type="core:NullValue"/>
+  <maxValue xsi:type="core:NullValue"/>
+  <fillValue xsi:type="core:NullValue"/>
+  <autoUse>DontUse</autoUse>
+  <dataSeparation>DontUse</dataSeparation>
+  <usersSeparation>DontUse</usersSeparation>
+  <authenticationSeparation>DontUse</authenticationSeparation>
+  <fullTextSearch>Use</fullTextSearch>
+</mdclass:CommonAttribute>

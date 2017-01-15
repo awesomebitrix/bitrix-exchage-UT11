@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonForm xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="37e310ce-cf83-46be-b398-07abe71b033b">
+  <name>Б_ФормаУстановкиКартинокИФайловХарактеристикамНоменклатуры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Картинки и файлы характеристик номенклатуры</value>
+  </synonym>
+  <comment></comment>
+  <usePurposes>PersonalComputer</usePurposes>
+  <usePurposes>MobileDevice</usePurposes>
+</mdclass:CommonForm>

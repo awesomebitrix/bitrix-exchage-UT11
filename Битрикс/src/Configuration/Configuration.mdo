@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="283a3f28-1eee-4898-933e-25f8d5bf9270">
+  <name>Конфигурация</name>
+  <comment></comment>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="66e76bed-0b4c-4fcc-88b5-307aad2a79a1"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="617c59c5-f449-4cd3-bdee-fe711039c078"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="cf62a2e3-e67b-4976-810b-d9a1294d9664"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="dc6b38e4-ef75-448e-9d36-cee18cd9510d"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="5447568c-e647-48ee-b8cb-a3212210bfd8"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="8e51d1f6-9212-464b-bedf-766132007d9a"/>
+  <namePrefix></namePrefix>
+  <configurationExtensionCompatibilityMode>8.3.8</configurationExtensionCompatibilityMode>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <vendor></vendor>
+  <version></version>
+  <updateCatalogAddress></updateCatalogAddress>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousExtensionAndAddInCallUseMode>DontUse</synchronousExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.8</compatibilityMode>
+  <languages uuid="bc27a93f-70fe-422c-ad5e-f3a67e8557aa">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <comment></comment>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.Битрикс</subsystems>
+  <commonPictures>CommonPicture.НастройкаВыполненияРегламентныхЗаданий</commonPictures>
+  <commonPictures>CommonPicture.Б_КартинкаПодсистемы</commonPictures>
+  <commonPictures>CommonPicture.Б_Баннер</commonPictures>
+  <commonPictures>CommonPicture.Б_Б24Баннер</commonPictures>
+  <commonPictures>CommonPicture.Б_ВыполнениеДлительнойОперации</commonPictures>
+  <roles>Role.Б_Роль</roles>
+  <commonModules>CommonModule.Б_ОбменССайтомКлиентСервер</commonModules>
+  <commonModules>CommonModule.Б_ОбменССайтомСервер</commonModules>
+  <commonModules>CommonModule.Б_ОбменССайтомСерверПовтИсп</commonModules>
+  <commonModules>CommonModule.Б_ОбменССайтомСерверВыгрузкаДанных</commonModules>
+  <commonModules>CommonModule.Б_ОбменССайтомСерверЗагрузкиДанных</commonModules>
+  <commonModules>CommonModule.Б_ОбщиеПроцедурыИФункцииСервер</commonModules>
+  <commonAttributes>CommonAttribute.Б_Идентификатор</commonAttributes>
+  <commonAttributes>CommonAttribute.Б_НомерВерсии</commonAttributes>
+  <commonAttributes>CommonAttribute.Б_ДатаДокумента</commonAttributes>
+  <exchangePlans>ExchangePlan.Б_ОбменССайтом</exchangePlans>
+  <eventSubscriptions>EventSubscription.Б_ЗарегистрироватьИзмененияПередЗаписьюРегистраСведенийДляОбменаССайтами</eventSubscriptions>
+  <eventSubscriptions>EventSubscription.Б_ЗарегистрироватьИзмененияПриЗаписиСправочникаДокументаДляОбменаССайтами</eventSubscriptions>
+  <eventSubscriptions>EventSubscription.Б_ОчисткаИдентификаторовПриКопировании</eventSubscriptions>
+  <scheduledJobs>ScheduledJob.Б_ЗаданиеОбменССайтомОнлайн</scheduledJobs>
+  <scheduledJobs>ScheduledJob.Б_ЗаданиеОбменССайтом</scheduledJobs>
+  <commonCommands>CommonCommand.Б_ОткрытьФормуДляПросмотраИдентификаторовБитрикс</commonCommands>
+  <commonCommands>CommonCommand.Б_ПерейтиНаФормумИнтеграции</commonCommands>
+  <commonCommands>CommonCommand.Б_ПосмотретьВебинарыПоИнтеграцииС1С</commonCommands>
+  <commonCommands>CommonCommand.Б_ИмпортТоваровИзИнтернетМагазина</commonCommands>
+  <commonCommands>CommonCommand.Б_ПерейтиНаДокументацию</commonCommands>
+  <commonCommands>CommonCommand.Б_ВерсияМодуляОбновить</commonCommands>
+  <commonCommands>CommonCommand.Б_КартинкиИФайлыДляХарактеристикНоменклатуры</commonCommands>
+  <commandGroups>CommandGroup.ВыполнениеОбменаДанными</commandGroups>
+  <constants>Constant.Б_НомерВерсииМодуляОбменаССайтом</constants>
+  <commonForms>CommonForm.Б_ФормаУстановкиКартинокИФайловХарактеристикамНоменклатуры</commonForms>
+  <catalogs>Catalog.Б_ХарактеристикиНоменклатурыПрисоединенныеФайлы</catalogs>
+  <dataProcessors>DataProcessor.Б_ПомощникИмпортаТоваровБитрикс</dataProcessors>
+  <informationRegisters>InformationRegister.Б_ПакетныйОбмен</informationRegisters>
+  <informationRegisters>InformationRegister.Б_ПрисоединенныеФайлыХарактеристикНоменклатуры</informationRegisters>
+  <informationRegisters>InformationRegister.Б_СвойстваТоваровДокументов</informationRegisters>
+</mdclass:Configuration>

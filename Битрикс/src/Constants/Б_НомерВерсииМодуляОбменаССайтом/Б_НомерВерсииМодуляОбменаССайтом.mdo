@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="33e0936a-76b7-4454-930a-b53c018adb7d">
+  <producedTypes>
+    <managerType typeId="a252e1de-de5a-4603-b3a4-25b68d51ef54" valueTypeId="0d783df7-8f7d-43ed-a4e0-4adc04ede5ff"/>
+    <valueManagerType typeId="37bd7e1e-fcd3-4c36-94f1-bb73ed6ae9cd" valueTypeId="bf0c269f-49dd-45b4-9e66-9b8064ea7bdc"/>
+  </producedTypes>
+  <name>Б_НомерВерсииМодуляОбменаССайтом</name>
+  <synonym>
+    <key>ru</key>
+    <value>Номер версии модуля обмена с сайтом Битрикс</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>100</length>
+    </stringQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <mask></mask>
+  <minValue xsi:type="core:NullValue"/>
+  <maxValue xsi:type="core:NullValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>
